@@ -10,8 +10,8 @@ function Header() {
          <div className="container">
             <SearchBar />
             <div className="header-buttons">
-               <CartButton />
                <PerfilButton />
+               <CartButton />
             </div>
          </div>
       </header>

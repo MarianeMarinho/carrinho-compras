@@ -19,7 +19,7 @@
 }
 
 .card__title {
-   font-size: 24px;
+   font-size: 20px;
    font-weight: 400;
    display: block;
    margin-bottom: 10px;
@@ -30,7 +30,7 @@
    font-size: 16px;
    font-weight: 600;
    display: block;
-   margin-bottom: 10px;
+   margin-bottom: 50px;
 }
 .card__favorite {
    position: absolute;
@@ -60,7 +60,10 @@
    cursor: pointer;
    color: white;
    font-weight: 600;
-   border-radius: 4px;
+   border-radius: 10px 10px 0px 0;
+   width: 100%;
+   position: absolute;
+   bottom: 0;
 }
 .button__add-cart:hover {
    background-color: #b11212;

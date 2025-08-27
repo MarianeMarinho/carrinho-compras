@@ -2,17 +2,19 @@
    background-color: #1f1e1e;
    position: fixed;
    width: 100%;
+   z-index: 1;
 }
 
-.container {
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   padding: 20px;
-}
 .header-buttons {
    display: flex;
    align-items: center;
    justify-content: center;
    gap: 15px;
+}
+
+.header > div {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 20px;
 }
