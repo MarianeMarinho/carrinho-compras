@@ -4,10 +4,12 @@ import "./Header.css";
 
 import CartButton from "../CartButton/CartButton";
 import PerfilButton from "../PerfilButton/PerfilButton";
+import Logo from "../LogoButton/LogoButton";
 function Header() {
    return (
       <header className="header">
          <div className="container">
+            <Logo />
             <SearchBar />
             <div className="header-buttons">
                <PerfilButton />

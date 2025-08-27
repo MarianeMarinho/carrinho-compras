@@ -64,7 +64,11 @@
    width: 100%;
    position: absolute;
    bottom: 0;
+   transition: all 0.3s ease;
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
+
 .button__add-cart:hover {
-   background-color: #b11212;
+   background: linear-gradient(135deg, #1b1b1b, #2e2e2e);
+   transform: scale(1.02);
 }
